@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(2, 31, 51) ;
+    border-color: rgb(2, 31, 51);
+     
+}
+nav{
+    display:flex;
+    margin-top: 1%;
+    color: lightgrey;
+}
+.home{
+    margin-left: 13%;
+    margin-top: 7px;
+    font-size:large;    
+    
+}
+.home>a{
+    text-decoration: none;
+    color: inherit;
+}
+.buttons{
+    font-size: large;
+    word-spacing: 50px;
+    margin-left: 55% ;
+    
+}
+.buttons>a{
+    text-decoration: none;
+    color: inherit;
+}
+a{
+    cursor: pointer;
+}
+.main{
+    
+background-color: rgb(2, 31, 51) ;
+display: flex;
+flex-direction: row;
+gap: 15%;
+justify-content: center;
+padding: 15% 0;
+}
+
+.info{
+color: lightgray;
+margin-left: 13%;
+margin-top: 120px;
+
+}
+.head1{
+font-size: medium;
+font-family: -webkit-body;  
+}
+.headmain{
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+ 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+font-size: 325%;
+}
+.para{
+font-style: italic;
+color: #BDEBEA;
+
+}
+.photo{
+     
+    width: 60%;
+    /* margin: -44px 0 0 0;
+
+    padding-top: 100px; */
+}
+.arrow{
+    padding: 100px 50%;
+}
+.aboutme{
+    background-color: rgb(2, 31, 51) ;
+   padding: 50px 13%;
+    
+}
+    
+
+.lborder{
+margin-left:-20px ;
+margin-top: -180px;
+height: 100px;
+ 
+}
+.paragraphaboutme{
+    background-color:inherit;
+    color: #BDEBEA;
+
+}
+.projects{
+    cursor: pointer;
+
+    padding-top: 130px;
+    padding-left: 10%;
+    
+}
+.buttonproject{
+    font-family: cursive;
+}
+.skills{
+    
+    background-color:  rgb(2, 31, 51);
+    /* margin-top: 100px; */
+}
+/* contactform */
+
+.contactform{
+    
+    color:#BDEBEA; 
+    padding-top:200px;
+    padding-right :30%;
+    padding-left: 30%;
+    
+}
+.contactform>label{
+    font-family: monospace;
+    
+    width: 100%;
+
+}
+.contactform>label>input
+{
+    color: #BDEBEA;
+    border-radius: 7px;
+    border-color: #BDEBEA;;
+height: 48px;
+width: 532px;
+}
+.comments>label>textarea{
+    height: 165px;
+width: 532px;
+border-radius: 7px;
+border-color: #00F5A0;
+color: #BDEBEA;
+}
+
+.smedia{
+    cursor: pointer;
+    padding-bottom: 500px;
+}
+
+.imgs{
+margin-left: 10%;
+
+}
+.html5{
+    padding-top: 10px;
+    width: 114px;
+}
+.css3{
+    width: 75px;
+    padding-top: 29px;
+    margin-left: 3%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 400px;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+ul>li{
+    color:#BDEBEA ;
+    text-align: center;
+}
+ul>li>img{
+    width: 50%;
+}
+
+
+@media  (max-width: 768px) 
+{
+    *{padding: 0 0;margin: 0;}
+ .home{margin: 0 0 0 14%;align-items: center; width: 100%; row-gap: -20%; }   
+ .buttons{display: flex; gap:10%;align-items: center;margin-left:-200px ; }
+ /* .photo{} */
+ .main{display: list-item;padding-left:1% ;padding-right:0;margin-right: -1%; }
+ .aboutme{font-size: small;width: fit-content;}
+ center{margin-right: -20%;}
+ .skills{margin: 0;padding: 0px 0 40px ;width: 100%;}
+ .projects{padding-left:5px;width: fit-content;}
+ .buttonproject{width: 100%; position: relative; right: 25%;padding-right: 0;}
+ #projectbtn{margin: 0;}
+.contactform{ margin: 0; padding: 0 5%;position: static;left: 2%;width: 100%;}
+.smedia>ul{padding:100px 30px 0 0px ; justify-content: center; align-items: center;}
+.arrow{padding: 0px 50%;}
+}
+    

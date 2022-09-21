@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #041f31;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.menu_2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 700px;
+}
+
+.menu_2 ul li a {
+    color: white;
+}
+
+.btn a {
+    border: 2px solid #49bce0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    color: #000;
+    font-size: 20px;
+}
+
+.content {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h5 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 60px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+.text p {
+    color: white;
+    margin-bottom: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.btn2 {
+    border: 2px solid #49bce0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    color: #000;
+    font-size: 20px;
+}
+
+.scroll {
+    text-align: center;
+}
+
+.scroll img {
+    width: 40px;
+}
+
+.content_2 {
+    color: white;
+    padding-left: 90px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content_2 p {
+    padding-bottom: 12px;
+}
+
+.content_3 {
+    color: white;
+    letter-spacing: 1px;
+    border-left: 3px solid white;
+    margin: 0 70px;
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.content_3 p {
+    padding-left: 17px;
+}
+
+
+.content_4 {
+    color: white;
+    margin: 5px 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content_4 img {
+    width: 100%;
+}
+
+.content_5 {
+    background-color: #222525;
+    width: 580px;
+    height: 50vh;
+    padding: 10px 20px;
+}
+
+.content_6 {
+    font-size: 19px;
+}
+
+.content_7 {
+    color: white;
+    margin: 5px 7px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content_7 img {
+    width: 100%;
+}
+
+
+.btn3 {
+    border: 2px solid #49bce0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    color: #000;
+    font-size: 15px;
+}
+
+.main_box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_4 {
+    border: 2px solid #49bce0;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    color: #000;
+    font-size: 18px;
+}
+
+.heading {
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.heading_2 {
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+}
+
+.heading_3 {
+    padding-left: 50px;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+}
+
+.skills {
+    color: white;
+    font-size: 32px;
+    margin-left: 140px;
+}
+
+.container_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_1 {
+    margin: 60px;
+}
+
+.icon_1 p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.icon_2 {
+    margin: 60px;
+}
+
+.icon_2 p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.icon_3 {
+    margin: 60px;
+}
+
+.icon_3 p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container_4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container_4 p {
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.container_5 {
+    text-align: center;
+    color: white;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+}
